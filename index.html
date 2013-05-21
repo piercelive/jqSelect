@@ -19,6 +19,9 @@ $(document).ready(function(){
 		'arrowClass' : 'my arrow!'
 	}
 	jqSelect(options);
+	$('select').on('change', function(){
+		console.log('change triggered');
+	});
 });
 </script>
 </html>
