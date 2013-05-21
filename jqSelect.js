@@ -38,6 +38,7 @@ var jqSelect = function(opts){
 				$selectBox.trigger('change');
 				$fakeBox.attr('data-value', $that.data('value'));
 				$fakeBox.text($that.text());
+				$selectBox.val($that.data('value'));
 			});
 			$container.append($that);
 		});
