@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>JQ-Select</h1>
-<select>
+<select id="select">
 
 	<option value="val_1">Value 1</option>
 
@@ -16,11 +16,10 @@
 </body>
 <script>
 $(document).ready(function(){
-	var options = {
-		'arrowClass' : 'my-arrow'
-	}
-	jqSelect(options);
-	$('select').on('change', function(){
+	$('#select').jqSelect({ 
+		debugMode : true
+	});
+	$('#select').on('change', function(){
 		console.log('change triggered');
 	});
 });

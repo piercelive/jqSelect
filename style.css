@@ -3,12 +3,12 @@
 }
 span.fake {
 	padding: 0px 10px;
-	background-color: #ccc;
 	border: 1px solid black;
 	color: limegreen;
 	height: 100%;
 	display: inline-block;
-	float: left;
+	padding-right: 20px;
+	background: url('arrow.png') no-repeat right #ccc;
 }
 span.my-arrow {
 	background: url('arrow.png') no-repeat #ccc;
