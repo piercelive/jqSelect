@@ -1,0 +1,35 @@
+.jq-select {
+	height: 20px;
+}
+span.fake {
+	padding: 0px 10px;
+	background-color: #ccc;
+	border: 1px solid black;
+	color: limegreen;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+span.my-arrow {
+	background: url('arrow.png') no-repeat #ccc;
+	width: 16px;
+	height: 100%;
+	display: inline-block;
+	border: 1px solid black;
+}
+span.option {
+	color: limegreen;
+	display: block;
+	cursor: pointer;
+	padding: 0px 10px;
+}
+span.option:hover {
+	background: #fefefe;	
+}
+div.dropdown {
+	display: none;
+	position: absolute;
+	background-color: #ccc;
+	z-index: 1;
+	border: 1px solid black;
+}
